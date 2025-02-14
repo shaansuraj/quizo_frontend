@@ -1,0 +1,60 @@
+{
+  "compilerOptions": {
+    // ECMAScript target version
+    "target": "ES2021",
+
+    // Libraries to include for TypeScript declarations
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+
+    // Allow JavaScript files or not
+    "allowJs": false,
+
+    // Skip type checks of declaration files
+    "skipLibCheck": true,
+
+    // Enable all strict type-checking options
+    "strict": true,
+
+    // Disallow inconsistently-cased references to the same file
+    "forceConsistentCasingInFileNames": true,
+
+    // Do not emit compiled output (typical for React + bundler setups)
+    "noEmit": true,
+
+    // Ensure each file is treated as a separate module
+    "isolatedModules": true,
+
+    // Use ESNext module syntax
+    "module": "ESNext",
+
+    // Node-style module resolution
+    "moduleResolution": "Node",
+
+    // Enable importing .json files
+    "resolveJsonModule": true,
+
+    // Enable full interoperability between CommonJS and ES Modules
+    "esModuleInterop": true,
+
+    // Use React for JSX
+    "jsx": "react",
+
+    // Enable incremental compilation for faster rebuilds
+    "incremental": true,
+
+    // ------------------------------------------
+    //           PATH ALIASES CONFIG
+    // ------------------------------------------
+    // baseUrl => "src" so we can do e.g. import from "@components/*", "@pages/*", etc.
+    "baseUrl": "src",
+    "paths": {
+      "@components/*": ["components/*"],
+      "@pages/*": ["pages/*"],
+      "@services/*": ["services/*"],
+      "@context/*": ["context/*"],
+      "@ui/*": ["components/ui/*"],
+      "@lib/*": ["lib/*"]
+    }
+  },
+  "include": ["src"]
+}
