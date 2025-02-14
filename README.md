@@ -38,6 +38,7 @@ The **Quizo Frontend** is a React-based web application that provides an interfa
 ```plaintext
 frontend/
 │── src/
+|   ├──assests/              # Assets 
 │   ├── components/
 │   │   ├── ui/              # ShadCN UI components
 │   │   ├── Layout.tsx       # Reusable layout component
@@ -71,7 +72,7 @@ frontend/
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/your-username/quizo-frontend.git
+git clone https://github.com/shaansuraj/quizo-frontend.git
 cd quizo-frontend
 ```
 
